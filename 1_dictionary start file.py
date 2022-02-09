@@ -51,15 +51,15 @@ print()
 
 
 
-"""
+
 
 print()
 print('*****  start section 3 - edit/append dictionary ********')
 print()
 
-phonebook['chris'] = "555-0123"
+phonebook['chris'] = "555-0123" #edit
 
-phonebook["Chris"] = "555-4444"
+phonebook["Chris"] = "555-4444" #append
 
 print(phonebook)
 
@@ -68,7 +68,7 @@ print('*****  end section 3 ********')
 print()
 
 
-"""
+
 
 
 """
@@ -198,6 +198,7 @@ print('*****  end section 10 ********')
 print()
 
 """
+"""
 import random
 print()
 print('*****  start section 11 - using random and converting to list ********')
@@ -216,7 +217,7 @@ print(phone)
 print()
 print('*****  end section 11 ********')
 print()
-
+"""
 
 
 
