@@ -3,6 +3,7 @@
 
 infile = open("WorldSeriesWinners.txt", "r")
 infile2 = open("WorldSeriesWinners.txt", "r")
+infile3 = open("WorldSeriesWinners.txt", "r")
 
 clubname = {}
 year = {}
@@ -35,7 +36,17 @@ if the_year == 1904 or the_year == 1994:
 else:
     n = the_year
     x = year[n]
-    t = clubname[t]
+    for l in infile3:
+        l = l.strip()
+        if l == x:
+            if l in clubname:
+                clubname[t] = clubname [t] + 1
+            else:
+                clubname[t] = 1
+
+
+    l = clubname[t] -2
+
 
 
 
@@ -45,7 +56,7 @@ print("Winner in "
     + "was the "
     + x
     + " They won "
-    + str(t)
+    + str(l)
     + " times",
 
 
