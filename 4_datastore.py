@@ -53,6 +53,6 @@ outfile.write("room-number, use, sq-ft, price\n")
 #print(datastore["medical"])
 
 for l in datastore["medical"]:
-  outfile.write(str(l["room-numer"])+ ',' + str(l["use"])+ ','+ str(l["sq-ft"]) + ',' + str(l["price"]) + "\n")
+  outfile.write(str(l["room-number"])+ ',' + str(l["use"])+ ','+ str(l["sq-ft"]) + ',' + str(l["price"]) + "\n")
 
 outfile.close()
